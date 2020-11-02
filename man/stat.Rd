@@ -7,9 +7,9 @@
 stat(df, Fun)
 }
 \arguments{
-\item{df}{A dataframe}
+\item{df}{a dataframe that we want to analysis (DRG)}
 
-\item{Fun}{Choose a function (mean,median,std) to analysis DRG data}
+\item{Fun}{choose a function (mean,median,std) to analysis DRG data}
 }
 \value{
 a matrix of DRG code and the related statistics of Average Medicare Payments
@@ -18,6 +18,6 @@ a matrix of DRG code and the related statistics of Average Medicare Payments
 A function that can calculate the mean, median and standard deviation of Average Medicare Payments
 }
 \examples{
-stat(DRG,"mean")
+stat(DRG,'mean')
 
 }

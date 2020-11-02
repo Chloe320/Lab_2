@@ -2,7 +2,7 @@
 % Please edit documentation in R/boxplots - DRG.R
 \name{boxplot_DRG}
 \alias{boxplot_DRG}
-\title{A function to make a boxplot of payments by DRG code.}
+\title{a function to make a boxplot of payments by DRG code.}
 \usage{
 boxplot_DRG(data, payment)
 }
@@ -15,7 +15,7 @@ boxplot_DRG(data, payment)
 output a boxplot with the average payment you choose
 }
 \description{
-A function to make a boxplot of payments by DRG code.
+a function to make a boxplot of payments by DRG code.
 }
 \examples{
 boxplot_DRG(DRG,'Average.Medicare.Payments')
